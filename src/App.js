@@ -13,8 +13,8 @@ function App() {
       <Button variant="light">Light</Button>{" "}
       <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
 
-      <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form style={{width: 500, margin : "auto", marginTop: 15}} >
+  <Form.Group className="mb-3" controlId="formBasicEmail" >
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
     <Form.Text className="text-muted">
